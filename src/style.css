@@ -1,0 +1,36 @@
+html,
+body {
+  /* padding: 16px; */
+  padding: 0px;
+  margin: 0px;
+  font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+}
+
+
+.notice > h3 {
+  text-align: center;
+}
+
+notice li {
+  margin-bottom: 12px;
+}
+
+.notice-img {
+  width: 100% !important;
+}
+
+.snappy-logo {
+  height: 160px;
+}
+
+.snappy-bg {
+  width: 100%;
+}
+
+.readme {
+  padding: 16px;
+}
+
+.snappy-bg:first-child {
+  transform: rotate(180deg);
+}

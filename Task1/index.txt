@@ -1,0 +1,32 @@
+SNAPPY R&D
+TASK 1
+
+Route configuration (you do not have to use all)
+- method 
+- path
+- params
+- query 
+- body 
+- response
+
+
+
+
+// Create new event:
+method:
+path:
+...
+
+
+
+// Get calendar events:
+
+
+
+
+// Get available times:
+
+
+
+
+// Update calender event:

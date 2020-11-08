@@ -1,0 +1,33 @@
+SNAPPY R&D
+TASK 2
+
+
+const valid = false;
+
+var main = async links => {
+  if (links.length == 0) throw new Error("empty");
+  links.map(link => {
+    valid = await validateLink(link);
+    if (valid) console.log(i + ": " + url + " valid site");
+    else console.log(i + ": " + url + " not valid site");
+  });
+};
+
+var fetch = require("node-fetch");
+
+let validateLink = async link => {
+  const r = await fetch(link);
+  return r.text();
+};
+
+main(["https://www.kfdsjlfkjdslk.com"]);
+
+
+
+-----------------
+Write below the problems and bad practices in the code
+e.g: in line X, you should use Y instead of Z
+1.
+2.
+3.
+...
